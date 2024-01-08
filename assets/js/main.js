@@ -19,10 +19,10 @@ btnGenerate.addEventListener("click",
         // calcolo sconto per età
         if (age == "minorenne") {
             discount = ticketPrice * 0.2; 
-            discountType = "Sconto Bronze";
+            discountType = "Sconto minori";
         } else if (age =="over65") {
             discount = ticketPrice * 0.4;
-            discountType = "Sconto Silver";
+            discountType = "Sconto anziani";
         } else {
             discount = 0;
             discountType = "Biglietto standard";
