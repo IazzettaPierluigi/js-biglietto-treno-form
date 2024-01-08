@@ -50,3 +50,52 @@
     margin-top: 20px;
     
 }
+
+#main-sect-1 .top .buttons .btn{
+    margin-left: 20px;
+    border: 1px solid #B91450;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #B91450;
+    border-radius: 5px;
+}
+
+ #main-sect-1 h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
+ }
+
+ /* sect 2 */
+#main-sect-2 .bottom{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+#main-sect-2 h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.sect-2-container{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid lightgrey;
+
+}
+
+#main-sect-2 .data-bottom{
+    width: calc(100% / 5);
+    padding: 20px;
+}
+
+.d-none{
+    display: none;
+}
+
+.dblock{
+    display: block;
+}
