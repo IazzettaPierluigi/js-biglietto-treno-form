@@ -48,4 +48,24 @@ btnGenerate.addEventListener("click",
         document.getElementById("ticket-section").className = "bottom dblock";
     }   
  
+
+)
+
+var btnGenerate = document.getElementById("cancel");
+btnGenerate.addEventListener("click",
+    function () {
+      
+        document.getElementById("name").value = "";
+        document.getElementById("km").value = "";
+        document.getElementById("age").value = "";
+
+        document.getElementById("passenger").innerHTML = "";
+        document.getElementById("discount").innerHTML = "";
+        document.getElementById("ticket-price").innerHTML = "";
+        document.getElementById("wagon").innerHTML = "";
+        document.getElementById("cp-code").innerHTML = "";
+
+        document.getElementById("ticket-section").className = "bottom d-none"
+    }
+
 )
